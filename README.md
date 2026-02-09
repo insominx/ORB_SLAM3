@@ -95,6 +95,12 @@ chmod +x build.sh
 
 This will create **libORB_SLAM3.so**  at *lib* folder and the executables in *Examples* folder.
 
+### Windows/WSL setup playbooks
+For Windows-hosted WSL rebuild/install workflows, see:
+
+- `docs/setup/windows-wsl-build-postmortem-and-playbook.md`
+- `docs/setup/windows-wsl-python-bindings-postmortem-and-playbook.md`
+
 # 4. Running ORB-SLAM3 with your camera
 
 Directory `Examples` contains several demo programs and calibration files to run ORB-SLAM3 in all sensor configurations with Intel Realsense cameras T265 and D435i. The steps needed to use your own camera are: 

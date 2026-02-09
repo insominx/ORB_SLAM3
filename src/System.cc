@@ -1545,5 +1545,15 @@ string System::CalculateCheckSum(string filename, int type)
     return checksum;
 }
 
+vector<KeyFrame*> System::GetKeyFrames() const
+{
+    return mpAtlas->GetAllKeyFrames();
+}
+
+Tracking* System::GetTracker() const
+{
+    return mpTracker;
+}
+
 } //namespace ORB_SLAM
 
