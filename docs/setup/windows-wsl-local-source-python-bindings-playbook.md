@@ -10,9 +10,9 @@ Deterministic rebuild instructions for future agents to run ORB-SLAM3 Python bin
 - Date validated: `2026-02-09`
 
 Related docs:
-- `docs/setup/windows-wsl-build-postmortem-and-playbook.md` (ORB core build background)
-- `docs/setup/windows-wsl-python-bindings-postmortem-and-playbook.md` (older wheel-based path)
-- `docs/scratch/build-log-python-bindings.md` (full issue log from this run)
+- `windows-wsl-build-postmortem-and-playbook.md` (ORB core build background)
+- `windows-wsl-python-bindings-postmortem-and-playbook.md` (older wheel-based path)
+- `../../../docs/scratch/build-log-python-bindings.md` (full issue log from this run)
 
 ---
 
@@ -253,4 +253,4 @@ pip install -e bindings/
 - Use this playbook for local-source Python bindings.
 - Keep ORB changes committed in your fork; do not rely on ad-hoc local edits.
 - If build behavior diverges, append details to:
-  - `docs/scratch/build-log-python-bindings.md`
+  - `../../../docs/scratch/build-log-python-bindings.md`
